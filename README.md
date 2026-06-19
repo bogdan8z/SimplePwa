@@ -2,18 +2,22 @@
 
 1. Create the Project
 > npm create vite@latest simplepwa -- --template react
+> 
 > cd simplepwa
+> 
 > npm i
 
 2. install the PWA plugin
 > npm i vite-plugin-pwa -D
 
-3. create icons: pwa-192x192.png and pwa-512x512.png
+3. create icons: **pwa-192x192.png** and **pwa-512x512.png**
 
 4. Build and Test
 Note: PWAs do not work in npm run dev. You must build the project and serve it.
+
     a. build the app
     > npm run build
+    > 
     b. preview the app
     > npm run preview
 
